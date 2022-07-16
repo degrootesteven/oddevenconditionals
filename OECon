@@ -1,0 +1,10 @@
+#Ask user for a number, print out the number as even or odd
+
+num = int(float(input("Give me a number: ")))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+# Is a negative and zero taken into account as valid numbers? What is the user inputs a string? What is the user doesn't eventer anything? WHat is the number is a float
